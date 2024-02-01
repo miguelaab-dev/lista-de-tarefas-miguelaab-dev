@@ -30,12 +30,11 @@ header {
     font-style: bold;
 }
 
-.header__input--search,
-.form__input--text {
+.header__input--search, .form__input--text{
     background-color: #ebebeb;
     border-radius: 5px;
     padding: 15px 18px;
-    width: 500px;
+    width: 600px;
 
 }
 
@@ -49,7 +48,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 40px;
 }
 
 .main__container {
@@ -104,6 +103,10 @@ main {
     font-size: 15px;
 }
 
+.form__button--add-task:Hover{
+    cursor: pointer;
+}
+
 .tasks__container {
     background-color: white;
     border-radius: 10px;
@@ -138,10 +141,39 @@ main {
     border-radius: 5px;
 }
 
+.task-info__container {
+    display: flex;
+    gap: 10px;
+
+}
+
+.task-info__container span {
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    align-self: center;
+}
+
+.span-important {
+    background-color: #f3a703;
+}
+
+.span-urgent {
+    background-color: #e40404    ;
+}
+
+.span-normal {
+    background-color: #028302    ;
+}
+
 .task__button--remove-task {
     background-image: url(./assets/trash-icon.svg);
     background-repeat: no-repeat;
     border: none;
     height: 40%;
     align-self: center;
+}
+
+.task__button--remove-task:hover {
+    cursor: pointer;
 }
