@@ -1,3 +1,7 @@
+* {
+ box-sizing: border-box; 
+}
+
 html {
     font-family: 'Roboto', sans-serif;
     height: 100%;
@@ -137,14 +141,13 @@ main {
     justify-content: space-between;
     padding: 10px 20px;
     background-color: #f1f3f5;
-    height: 20%;
+    height: 25%;
     border-radius: 5px;
 }
 
 .task-info__container {
     display: flex;
     gap: 10px;
-
 }
 
 .task-info__container span {
@@ -170,8 +173,7 @@ main {
     background-image: url(./assets/trash-icon.svg);
     background-repeat: no-repeat;
     border: none;
-    height: 40%;
-    align-self: center;
+    height: 18px;
 }
 
 .task__button--remove-task:hover {
