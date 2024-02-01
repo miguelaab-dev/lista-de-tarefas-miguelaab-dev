@@ -1,4 +1,3 @@
-
 html {
     font-family: 'Roboto', sans-serif;
     height: 100%;
@@ -7,7 +6,7 @@ html {
 
 body {
     height: 100%;
-    background-color: #e2e2e2 ;
+    background-color: #e2e2e2;
 }
 
 header {
@@ -31,22 +30,21 @@ header {
     font-style: bold;
 }
 
-.header__input--search{
- border-radius: 0px;
- background-color: #ebebeb;
- border-radius: 5px;
- padding: 15px 18px;
- width: 500px;
+.header__input--search,
+.form__input--text {
+    background-color: #ebebeb;
+    border-radius: 5px;
+    padding: 15px 18px;
+    width: 500px;
 
 }
 
 input {
-    all:unset
+    all: unset
 }
 
 
 main {
-    border:  1px solid black;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -54,6 +52,96 @@ main {
     gap: 20px;
 }
 
+.main__container {
+    display: flex;
+    height: 90%;
+    width: 100%;
+}
+
 .form__container {
-    border: 1px solid red;
+    background-color: white;
+    border-radius: 10px;
+    height: 30%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 60px;
+    gap: 30px;
+}
+
+.form__title {
+    font-weight: 400;
+    font-size: x-large;
+}
+
+#input_title {
+    background-color: #ebebeb;
+    width: 60%;
+}
+
+.form__input-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form__input--priority {
+    background-color: #ebebeb;
+    border: none;
+    width: 30%;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 15px;
+    color: #5f5f5f;
+}
+
+.form__button--add-task {
+    border: none;
+    background-color: #3b5bdb;
+    height: 20%;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+}
+
+.tasks__container {
+    background-color: white;
+    border-radius: 10px;
+    height: 40%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 8px 60px;
+    gap: 30px;
+}
+
+.tasks__container h2 {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.tasks__list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 60%;
+}
+
+.task__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #f1f3f5;
+    height: 20%;
+    border-radius: 5px;
+}
+
+.task__button--remove-task {
+    background-image: url(./assets/trash-icon.svg);
+    background-repeat: no-repeat;
+    border: none;
+    height: 40%;
+    align-self: center;
 }
