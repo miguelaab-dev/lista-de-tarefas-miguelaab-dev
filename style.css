@@ -4,17 +4,15 @@
 
 html {
     font-family: 'Roboto', sans-serif;
-    height: 100%;
 }
 
 
 body {
-    height: 100%;
     background-color: #e2e2e2;
 }
 
 header {
-    height: 10%;
+    height: 100px;
     background-color: white;
     flex-wrap: nowrap;
 
@@ -53,6 +51,7 @@ main {
     justify-content: center;
     align-items: center;
     gap: 40px;
+    padding: 20px 0px;
 }
 
 .main__container {
@@ -69,8 +68,9 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 10px 60px;
+    padding: 20px 60px;
     gap: 30px;
+
 }
 
 .form__title {
@@ -101,7 +101,7 @@ main {
 .form__button--add-task {
     border: none;
     background-color: #3b5bdb;
-    height: 20%;
+    height: 50px;
     border-radius: 5px;
     color: white;
     font-size: 15px;
@@ -114,12 +114,13 @@ main {
 .tasks__container {
     background-color: white;
     border-radius: 10px;
-    height: 40%;
+    height: fit-content;
+    min-height: 40%;
     width: 70%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 8px 60px;
+    padding: 20px 60px;
     gap: 30px;
 }
 
@@ -132,7 +133,6 @@ main {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    height: 60%;
 }
 
 .task__item {
@@ -141,7 +141,7 @@ main {
     justify-content: space-between;
     padding: 10px 20px;
     background-color: #f1f3f5;
-    height: 25%;
+    height: 35px;
     border-radius: 5px;
 }
 
@@ -153,7 +153,7 @@ main {
 .task-info__container span {
     width: 10px;
     height: 10px;
-    border-radius: 10px;
+    border-radius: 100%;
     align-self: center;
 }
 
