@@ -68,9 +68,8 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 20px 60px;
+    padding: 40px 60px;
     gap: 30px;
-
 }
 
 .form__title {
@@ -153,7 +152,7 @@ main {
 .task-info__container span {
     width: 10px;
     height: 10px;
-    border-radius: 100%;
+    border-radius: 10px;
     align-self: center;
 }
 

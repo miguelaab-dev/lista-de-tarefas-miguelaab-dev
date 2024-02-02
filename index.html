@@ -28,6 +28,7 @@
           class="header__input--search input__box"
           type="search"
           placeholder="Pesquisar tarefa"
+          required
         />
       </div>
     </header>
@@ -42,8 +43,9 @@
             class="form__input--text input__box"
             type="text"
             placeholder="Digitar titulo da tarefa"
+            required
           />
-          <select class="form__input--priority input__box">
+          <select class="form__input--priority input__box" required>
             <option value="">Selecionar tipo</option>
             <option value="urgente">Urgente</option>
             <option value="importante">Importante</option>
@@ -74,7 +76,7 @@
               <p>Consertar Computador</p>
             </div>
             <button class="task__button--remove-task"></button>
-          </li>
+         </li>
           <!-- Task Exemplo 3 -->
           <li class="task__item">
             <div class="task-info__container">
